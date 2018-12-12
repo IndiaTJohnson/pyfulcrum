@@ -63,7 +63,8 @@ PyFulcrum requires:
 
     ```
     cp repo/pyfulcrum/lib/alembic.ini repo/pyfulcrum/lib/local-db.ini
-    $ cat conf/local-db.ini | grep sqlalchemy
+    cp repo/pyfulcrum/lib/local-db.ini conf/
+    cat conf/local-db.ini | grep sqlalchemy
     sqlalchemy.url = postgresql://pyfulcrum:pyfulcrum@localhost/pyfulcrum
     ```
 
